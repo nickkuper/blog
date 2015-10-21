@@ -5,7 +5,7 @@
     <p>{{ post.content }}</p>
     <p>
         {% load disqus_tags %}
-        {% disqus_dev %}
-        {% disqus_show_comments %}
+        {% set_disqus_url "http://example.com/post/10" %}
+        {% disqus_show_comments "channel-testforme" %}
     </p>
 {% endblock %}

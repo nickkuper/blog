@@ -112,5 +112,4 @@ DISQUS_WEBSITE_SHORTNAME = 'channel-testforme'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static',),
-    '/home/nick/projects/blog/mysite/static'
 )
